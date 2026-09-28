@@ -24,6 +24,7 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
+  html, body { overflow-x: hidden; max-width: 100%; }
   body { font-family: 'Inter', -apple-system, sans-serif; color: var(--n900); background: var(--white); }
   .meta-bar { background: var(--n900); color: #fff; font-size: 12px; padding: 10px 32px; display: flex; justify-content: space-between; }
   .wrap { max-width: 1160px; margin: 0 auto; padding: 0 32px; }
@@ -146,10 +147,11 @@
   .method-card-v2.pos-3 { grid-column: 3; grid-row: 1; }
   .method-card-v2.pos-4 { grid-column: 3; grid-row: 2; }
   .method-photo-v2 {
-    grid-column: 2; grid-row: 1 / 3; border-radius: var(--radius-lg);
+    grid-column: 2; grid-row: 1 / 3; border-radius: var(--radius-lg); position: relative; min-height: 260px;
     background: linear-gradient(160deg, #EEF0FF, #E3F4FF); border: 1px solid #E0E4FF;
     display: flex; align-items: center; justify-content: center; padding: 24px; text-align: center;
   }
+  @media (max-width: 900px) { .method-photo-v2 { min-height: 220px; aspect-ratio: 16/10; } }
   .method-photo-v2 span { font-size: 12.5px; color: #8A93D6; font-weight: 600; }
   .method-badge-v2 { width: 42px; height: 42px; border-radius: 50%; background: #EEF0FF; color: var(--primary); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px; margin-bottom: 14px; }
   .method-card-v2 h4 { font-size: 15.5px; font-weight: 700; margin-bottom: 6px; }
@@ -279,7 +281,7 @@
   .nav-burger.active span:nth-child(2) { opacity:0; }
   .nav-burger.active span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
   .mobile-menu { display:none; flex-direction:column; gap:2px; max-height:0; overflow:hidden; transition:max-height .25s ease; }
-  .mobile-menu.open { max-height:420px; padding-bottom:18px; }
+  .mobile-menu.open { max-height:calc(100vh - 76px); overflow-y:auto; -webkit-overflow-scrolling:touch; padding-bottom:18px; }
   .mobile-menu a { padding:12px 4px; font-size:15px; font-weight:600; color:var(--n900); border-bottom:1px solid var(--n100); }
   .compare-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
   .compare-table { min-width:520px; }
@@ -315,8 +317,14 @@
   .nav-dropdown a { display: block; padding: 10px 14px; border-radius: 8px; font-size: 13.5px; font-weight: 600; color: var(--n900); white-space: nowrap; }
   .nav-dropdown a:hover { background: var(--n100); }
 
-  .mobile-menu .mm-label { font-size: 11px; font-weight: 800; color: var(--n300); text-transform: uppercase; margin: 14px 0 4px; padding: 0 4px; }
-  .mobile-menu .mm-sub { padding-left: 14px !important; font-weight: 500 !important; }
+  .mm-group { border-bottom:1px solid var(--n100); }
+  .mm-toggle { display:flex; align-items:center; justify-content:space-between; padding:14px 4px; font-size:11px; font-weight:800; color:var(--n600); text-transform:uppercase; cursor:pointer; }
+  .mm-toggle .mm-chev { color: var(--primary); font-size:14px; transition:transform .2s; }
+  .mm-group.open .mm-toggle .mm-chev { transform: rotate(180deg); }
+  .mm-sublist { display:none; flex-direction:column; }
+  .mm-group.open .mm-sublist { display:flex; }
+  .mobile-menu .mm-sub { padding-left: 14px !important; font-weight: 500 !important; border-bottom: 1px solid var(--n100); }
+  .mobile-menu .mm-sub:last-child { border-bottom: none; }
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Agência Mori", "url": "https://agenciamori.com.br/", "description": "Agência de SEO Local e GEO em São Paulo, especializada em posicionar negócios locais no Google e nas inteligências artificiais.", "areaServed": {"@type": "Country", "name": "Brasil"}, "contactPoint": {"@type": "ContactPoint", "telephone": "+55-11-96062-0253", "contactType": "customer service", "areaServed": "BR", "availableLanguage": "Portuguese"}, "sameAs": ["https://www.instagram.com/mori.agencia", "https://www.linkedin.com/company/agencia-mori/"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Por que contratar uma agência de SEO em São Paulo?", "acceptedAnswer": {"@type": "Answer", "text": "Uma agência local entende o mercado, a concorrência e o comportamento de busca da região, o que muda diretamente a estratégia de SEO Local."}}, {"@type": "Question", "name": "Como funciona o diagnóstico gratuito?", "acceptedAnswer": {"@type": "Answer", "text": "Analisamos sua presença atual no Google, seus concorrentes diretos e as oportunidades reais de crescimento, sem compromisso de contratação."}}, {"@type": "Question", "name": "Vocês atendem empresas fora de São Paulo?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, atendemos empresas em todo o Brasil, com foco especial em São Paulo e região."}}, {"@type": "Question", "name": "Qual o investimento mínimo?", "acceptedAnswer": {"@type": "Answer", "text": "Varia de acordo com o serviço e o tamanho do negócio. O diagnóstico gratuito já indica qual escopo faz mais sentido antes de falar em valor."}}]}</script>
@@ -336,18 +344,26 @@
   </div>
   <div id="mobileMenu" class="mobile-menu">
     <a href="index.html">Início</a>
-    <div class="mm-label">Serviços</div>
-    <a class="mm-sub" href="servicos/seo-local/index.html">SEO Local</a>
-    <a class="mm-sub" href="servicos/index.html">GEO</a>
-    <a class="mm-sub" href="servicos/google-meu-negocio/index.html">Google Meu Negócio</a>
-    <a class="mm-sub" href="servicos/criacao-de-sites/index.html">Criação de Sites</a>
-    <a class="mm-sub" href="servicos/gestao-de-avaliacoes/index.html">Gestão de Avaliações</a>
-    <div class="mm-label">Segmentos</div>
-    <a class="mm-sub" href="seo-para-medicos/index.html">SEO para Médicos</a>
-    <a class="mm-sub" href="seo-para-advogados/index.html">SEO para Advogados</a>
-    <a class="mm-sub" href="seo-para-dentistas/index.html">SEO para Dentistas</a>
-    <a class="mm-sub" href="seo-para-imobiliarias/index.html">SEO para Imobiliárias</a>
-    <a class="mm-sub" href="seo-para-clinicas-transplante-capilar/index.html">Transplante Capilar</a>
+    <div class="mm-group">
+      <div class="mm-toggle">Serviços <span class="mm-chev">⌄</span></div>
+      <div class="mm-sublist">
+        <a class="mm-sub" href="servicos/seo-local/index.html">SEO Local</a>
+        <a class="mm-sub" href="servicos/index.html">GEO</a>
+        <a class="mm-sub" href="servicos/google-meu-negocio/index.html">Google Meu Negócio</a>
+        <a class="mm-sub" href="servicos/criacao-de-sites/index.html">Criação de Sites</a>
+        <a class="mm-sub" href="servicos/gestao-de-avaliacoes/index.html">Gestão de Avaliações</a>
+      </div>
+    </div>
+    <div class="mm-group">
+      <div class="mm-toggle">Segmentos <span class="mm-chev">⌄</span></div>
+      <div class="mm-sublist">
+        <a class="mm-sub" href="seo-para-medicos/index.html">SEO para Médicos</a>
+        <a class="mm-sub" href="seo-para-advogados/index.html">SEO para Advogados</a>
+        <a class="mm-sub" href="seo-para-dentistas/index.html">SEO para Dentistas</a>
+        <a class="mm-sub" href="seo-para-imobiliarias/index.html">SEO para Imobiliárias</a>
+        <a class="mm-sub" href="seo-para-clinicas-transplante-capilar/index.html">Transplante Capilar</a>
+      </div>
+    </div>
     <a href="sobre/index.html">Sobre</a>
     <a href="blog/index.html">Blog</a>
     <a href="cases/index.html">Cases</a>
@@ -765,6 +781,13 @@
 document.querySelectorAll('.faq-q').forEach(function(q){
   q.addEventListener('click', function(){
     q.closest('.faq-row').classList.toggle('open');
+  });
+});
+</script>
+<script>
+document.querySelectorAll('.mm-toggle').forEach(function(t){
+  t.addEventListener('click', function(){
+    t.closest('.mm-group').classList.toggle('open');
   });
 });
 </script>
