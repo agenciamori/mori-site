@@ -1,0 +1,49 @@
+# Agência Mori
+
+> Agência de SEO Local e GEO em São Paulo, especializada em posicionar negócios locais no Google e nas inteligências artificiais, sem depender de anúncio pago.
+
+## Serviços
+
+- [SEO Local](https://agenciamori.com.br/servicos/seo-local): Estratégia completa de SEO Local, o serviço-âncora da Mori. Cobre otimização de perfil no Google, conteúdo geolocalizado, citações NAP e fatores de ranqueamento local.
+- [Google Meu Negócio](https://agenciamori.com.br/servicos/google-meu-negocio): Gestão e otimização de perfil no Google Meu Negócio para aumentar ligações, visitas e agendamentos.
+- [Criação de Sites](https://agenciamori.com.br/servicos/criacao-de-sites): Sites otimizados para SEO Local desde a estrutura técnica, mobile-first, com Schema markup e preparados para citação por IA (inclui llms.txt).
+- [Gestão de Avaliações](https://agenciamori.com.br/servicos/gestao-de-avaliacoes): Processo ativo de geração e resposta a avaliações no Google, fator direto de ranqueamento local.
+- [Visão geral dos serviços](https://agenciamori.com.br/servicos): Página com as cinco frentes de trabalho da Mori.
+
+## Segmentos atendidos
+
+- [SEO para Médicos](https://agenciamori.com.br/seo-para-medicos): SEO Local para consultórios e clínicas médicas, dentro das normas do CFM.
+- [SEO para Advogados](https://agenciamori.com.br/seo-para-advogados): SEO Local para escritórios de advocacia, dentro das normas da OAB.
+- [SEO para Dentistas](https://agenciamori.com.br/seo-para-dentistas): SEO Local por procedimento para clínicas odontológicas.
+- [SEO para Imobiliárias](https://agenciamori.com.br/seo-para-imobiliarias): SEO Local por bairro para imobiliárias e corretores.
+- [SEO para Clínicas de Transplante Capilar](https://agenciamori.com.br/seo-para-clinicas-transplante-capilar): SEO Local para clínicas de transplante capilar.
+
+## Empresa
+
+- [Sobre a Mori](https://agenciamori.com.br/sobre): História, valores e diferenciais da agência.
+- [Cases](https://agenciamori.com.br/cases): Resultados reais de clientes, com dados verificáveis do Search Console e do Google Meu Negócio.
+- [Contato](https://agenciamori.com.br/contato): Canais de contato direto com a Mori.
+
+## Blog
+
+- [Blog da Mori](https://agenciamori.com.br/blog): Conteúdo sobre SEO Local, Google Meu Negócio e GEO.
+- [O que é NAP e por que isso importa pro SEO Local](https://agenciamori.com.br/blog/o-que-e-nap-seo-local): Explica o conceito de NAP (nome, endereço, telefone) e seu impacto direto no ranqueamento local.
+
+## Key Facts
+
+- Fundada por Gabriel Arruda, especialista em SEO Local e GEO
+- Sede em São Paulo, Brasil, com atendimento em todo o Brasil
+- +20 empresas atendidas
+- +10M de acessos orgânicos gerados para clientes
+- 56% de taxa de conversão de leads vindos do Google em clientes
+- Prazo mínimo de 60 dias para o início dos primeiros resultados
+- Metodologia própria: Método MORI (Mapeamento, Otimização, Relevância, Impacto)
+- Clientes incluem PJ Odontologia, FHENG, 2Live, Spazio Spindola e Dr. Edmar Spindola
+
+## Contact
+
+- Website: https://agenciamori.com.br
+- WhatsApp: +55 11 96062-0253
+- E-mail: contato.agenciamori@gmail.com
+- Instagram: https://www.instagram.com/mori.agencia
+- LinkedIn: https://www.linkedin.com/company/agencia-mori/

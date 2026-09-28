@@ -1,0 +1,35 @@
+# Redirecionamentos 301 — migração do site antigo (Lovable) pro site novo
+# Preserva o histórico de indexação do Search Console
+
+# Duplicatas resolvidas (Etapa 1)
+/about/               /sobre               301
+/about                /sobre               301
+/sobre/               /sobre               301
+/contato/             /contato             301
+/servicos/            /servicos            301
+/cases/               /cases               301
+
+# Sobras de WordPress sem função (Etapa 1)
+/hello-world/         /                    301
+/category/uncategorized/  /                301
+/customer-cabinet/     /                   301
+
+# Conteúdo fundido dentro de SEO Local (Etapa 1/2)
+/servicos/conteudo-local   /servicos/seo-local   301
+/servicos/link-building    /servicos/seo-local   301
+
+# Slugs renomeados (Etapa 2)
+/servicos/avaliacoes   /servicos/gestao-de-avaliacoes   301
+/servicos/criacao-sites   /servicos/criacao-de-sites    301
+
+# Trailing slash -> sem barra (padrão do site novo, Etapa 2)
+/sobre-o-fundador/    /sobre-o-fundador    301
+/duvidas/             /duvidas             301
+/blog/                /blog                301
+/seo-para-medicos/    /seo-para-medicos    301
+/seo-para-advogados/  /seo-para-advogados  301
+/seo-para-dentistas/  /seo-para-dentistas  301
+/seo-para-imobiliarias/  /seo-para-imobiliarias  301
+/seo-para-clinicas-transplante-capilar/  /seo-para-clinicas-transplante-capilar  301
+/servicos/seo-local/  /servicos/seo-local  301
+/servicos/google-meu-negocio/  /servicos/google-meu-negocio  301

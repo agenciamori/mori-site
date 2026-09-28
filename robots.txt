@@ -1,0 +1,36 @@
+# robots.txt — agenciamori.com.br
+
+# Crawlers de busca tradicionais
+User-agent: *
+Allow: /
+
+# Crawlers de IA generativa — permitidos explicitamente
+# (a Mori trabalha GEO, faz sentido dar acesso claro em vez de deixar implícito)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+Sitemap: https://agenciamori.com.br/sitemap.xml
