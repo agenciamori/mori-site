@@ -304,3 +304,11 @@
   .ds-card ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
   .ds-card li { font-size: 13.5px; color: var(--n600); display: flex; gap: 8px; align-items: flex-start; }
   .ds-card.solucao li::before { content: '✓'; color: #16A34A; font-weight: 800; flex-shrink: 0; }
+
+  /* Mega menu de segmentos */
+  .nav-item:hover .nav-dropdown.mega { display: grid; }
+  .nav-dropdown.mega { grid-template-columns: repeat(3, minmax(190px, 1fr)); gap: 6px 10px; padding: 18px 12px 12px; min-width: 660px; }
+  .mega-col { display: flex; flex-direction: column; }
+  .mega-h { font-size: 11px; font-weight: 800; color: var(--n600); text-transform: uppercase; letter-spacing: .4px; padding: 6px 14px 4px; }
+  .nav-dropdown.mega a { padding: 7px 14px; font-size: 13px; }
+  .nav-dropdown.mega .mega-all { grid-column: 1 / -1; margin-top: 6px; border-top: 1px solid #ECECEC; border-radius: 0; padding-top: 12px; color: var(--primary); font-weight: 700; }

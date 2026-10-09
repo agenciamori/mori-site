@@ -1,7 +1,7 @@
 <div class="wrap">
   <div class="nav">
     <a href="/" class="nav-logo" style="display:inline-flex; text-decoration:none;"><span class="logo-slot" title="Substituir por arquivo de logo real" style="position:relative; overflow:hidden;">M<img src="/assets/img/logo.svg" alt="Mori" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#fff;" onerror="this.remove()"></span></a>
-    <div class="nav-links"><a href="/">Início</a><div class="nav-item"><a href="/servicos/">Serviços ▾</a><div class="nav-dropdown">{% for i in menu.servicos %}<a href="{{ i.url }}">{{ i.label }}</a>{% endfor %}</div></div><div class="nav-item"><span>Segmentos ▾</span><div class="nav-dropdown">{% for i in menu.segmentos %}<a href="{{ i.url }}">{{ i.label }}</a>{% endfor %}</div></div>{% for i in menu.principal %}<a href="{{ i.url }}">{{ i.label }}</a>{% endfor %}</div>
+    <div class="nav-links"><a href="/">Início</a><div class="nav-item"><a href="/servicos/">Serviços ▾</a><div class="nav-dropdown">{% for i in menu.servicos %}<a href="{{ i.url }}">{{ i.label }}</a>{% endfor %}</div></div><div class="nav-item"><a href="/segmentos/">Segmentos ▾</a><div class="nav-dropdown mega">{% set mp = segmentos.modelos | selectattr("publicado") %}{% if mp | length %}<div class="mega-col"><div class="mega-h">Por modelo de negócio</div>{% for i in mp %}<a href="{{ i.url }}">{{ i.nome | replace("SEO para ", "") }}</a>{% endfor %}</div>{% endif %}{% for g in segmentos.grupos %}{% set gp = g.itens | selectattr("publicado") %}{% if gp | length %}<div class="mega-col"><div class="mega-h">{{ g.nome }}</div>{% for i in gp %}<a href="{{ i.url }}">{{ i.nome }}</a>{% endfor %}</div>{% endif %}{% endfor %}<a class="mega-all" href="/segmentos/">Ver todos os segmentos →</a></div></div>{% for i in menu.principal %}<a href="{{ i.url }}">{{ i.label }}</a>{% endfor %}</div>
     <div class="nav-right">
       <a href="{{ site.whatsapp }}" class="pill-btn nav-cta">Falar com a Mori →</a>
       <button class="nav-burger" aria-label="Abrir menu" onclick="document.getElementById('mobileMenu').classList.toggle('open'); this.classList.toggle('active')">
@@ -22,9 +22,13 @@
     <div class="mm-group">
       <div class="mm-toggle">Segmentos <span class="mm-chev">⌄</span></div>
       <div class="mm-sublist">
-        {%- for i in menu.segmentos %}
-        <a class="mm-sub" href="{{ i.url }}">{{ i.label }}</a>
+        {%- for i in segmentos.modelos | selectattr("publicado") %}
+        <a class="mm-sub" href="{{ i.url }}">{{ i.nome }}</a>
         {%- endfor %}
+        {%- for g in segmentos.grupos %}{% for i in g.itens | selectattr("publicado") %}
+        <a class="mm-sub" href="{{ i.url }}">SEO para {{ i.nome | lower }}</a>
+        {%- endfor %}{% endfor %}
+        <a class="mm-sub" href="/segmentos/">Ver todos os segmentos</a>
       </div>
     </div>
     {%- for i in menu.principal %}

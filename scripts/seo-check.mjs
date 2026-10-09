@@ -42,7 +42,9 @@ for (const p of pages) {
   const canon = (h.match(/<link rel="canonical" href="([^"]*)"/) || [])[1] || "";
   const h1s = [...h.matchAll(/<h1[^>]*>([\s\S]*?)<\/h1>/g)].map((x) => strip(x[1]));
   const body = h.slice(h.indexOf("<body"));
-  const text = strip(body);
+  // Texto principal: do primeiro <section> até o rodapé (ignora menu e rodapé)
+  const mainStart = h.indexOf("<section"), mainEnd = h.indexOf("<footer");
+  const text = strip(mainStart > 0 ? h.slice(mainStart, mainEnd > mainStart ? mainEnd : undefined) : body);
 
   if (!title) err("sem <title>");
   else if (title.length > 65) warn(`title com ${title.length} caracteres (ideal até 60-65)`);

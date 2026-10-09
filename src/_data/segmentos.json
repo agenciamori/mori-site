@@ -29,13 +29,13 @@
           "nome": "Clínicas",
           "url": "/seo-para-clinicas/",
           "frase": "Várias especialidades, uma estratégia que dá visibilidade a cada uma.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Clínicas de estética",
           "url": "/seo-para-clinicas-de-estetica/",
           "frase": "Procedimentos de alto ticket buscados por nome e por região.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Dentistas",
@@ -66,7 +66,7 @@
           "nome": "Arquitetos",
           "url": "/seo-para-arquitetos/",
           "frase": "Portfólio que também aparece para quem está planejando a obra.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Imobiliárias",
@@ -78,7 +78,7 @@
           "nome": "Contabilidade",
           "url": "/seo-para-contabilidade/",
           "frase": "Empresas procurando contador por serviço e por cidade.",
-          "publicado": false
+          "publicado": true
         }
       ]
     },
