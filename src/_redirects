@@ -1,0 +1,26 @@
+# Redirecionamentos 301
+# Padrão de URL do site: COM barra final (/pagina/). É o comportamento nativo do Netlify
+# para pastas, então nada de regra "/pagina/ -> /pagina" (isso criava loop).
+
+# Domínio antigo / duplicatas
+/about                /sobre/              301
+/about/               /sobre/              301
+
+# Sobras de WordPress sem função
+/hello-world/         /                    301
+/category/uncategorized/  /                301
+/customer-cabinet/     /                   301
+
+# Conteúdo fundido dentro de SEO Local
+/servicos/conteudo-local   /servicos/seo-local/   301
+/servicos/link-building    /servicos/seo-local/   301
+
+# Slugs renomeados
+/servicos/avaliacoes      /servicos/gestao-de-avaliacoes/   301
+/servicos/criacao-sites   /servicos/criacao-de-sites/       301
+
+# Páginas antigas (temporário até as páginas novas existirem)
+/sobre-o-fundador     /sobre/              301
+/sobre-o-fundador/    /sobre/              301
+/duvidas              /#duvidas            301
+/duvidas/             /#duvidas            301
