@@ -29,8 +29,8 @@ ctaFinal:
       {%- if modelosPub.length %}
       <div class="seg-group" id="modelo-de-negocio">
         <h2>Por modelo de negócio</h2>
-        <p>Antes do setor, o tamanho e o tipo de venda mudam a estratégia: quem vende para o consumidor final na sua região e quem vende para outras empresas precisam de abordagens diferentes.</p>
-        <div class="seg-cards{% if modelosPub.length == 2 %} two{% endif %}">
+        <p>Antes do setor, o tamanho e o tipo de venda mudam a estratégia: quem vende para o consumidor final na sua região, quem vende para outras empresas e quem opera uma rede de unidades precisam de abordagens diferentes.</p>
+        <div class="seg-cards{% if modelosPub.length == 2 %} two{% elif modelosPub.length == 4 %} four{% endif %}">
           {%- for m in modelosPub %}
           <a class="seg-card" href="{{ m.url }}"><h3>{{ m.nome }}</h3><p>{{ m.frase }}</p><span class="go">Ver estratégia →</span></a>
           {%- endfor %}

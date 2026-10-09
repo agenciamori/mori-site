@@ -11,6 +11,12 @@
       "url": "/seo-para-empresas-b2b/",
       "frase": "Para quem vende para outras empresas, com ciclo de venda longo e ticket alto.",
       "publicado": true
+    },
+    {
+      "nome": "SEO para Franquias",
+      "url": "/seo-para-franquias/",
+      "frase": "Para redes com várias unidades: governança, páginas por unidade e captação de franqueados.",
+      "publicado": true
     }
   ],
   "grupos": [
@@ -91,43 +97,37 @@
           "nome": "Restaurantes",
           "url": "/seo-para-restaurantes/",
           "frase": "Para aparecer quando alguém decide onde comer na região.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Hotéis",
           "url": "/seo-para-hoteis/",
           "frase": "Reserva direta, sem depender só das plataformas.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Assistência técnica",
           "url": "/seo-para-assistencia-tecnica/",
           "frase": "Conserto por marca, aparelho e bairro.",
-          "publicado": false
-        },
-        {
-          "nome": "Franquias",
-          "url": "/seo-para-franquias/",
-          "frase": "Várias unidades, cada uma visível na sua região.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Desentupidoras",
           "url": "/seo-para-desentupidoras/",
           "frase": "Urgência, 24 horas e atendimento por região.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Vidraçarias",
           "url": "/seo-para-vidracarias/",
           "frase": "Box, espelho e fechamento buscados por bairro.",
-          "publicado": false
+          "publicado": true
         },
         {
           "nome": "Energia solar",
           "url": "/seo-para-energia-solar/",
           "frase": "Pesquisa longa, comparação e confiança antes da compra.",
-          "publicado": false
+          "publicado": true
         }
       ]
     },
