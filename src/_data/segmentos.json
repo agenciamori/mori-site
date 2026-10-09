@@ -1,7 +1,17 @@
 {
   "modelos": [
-    { "nome": "SEO para Pequenas Empresas", "url": "/seo-para-pequenas-empresas/", "frase": "Para quem tem orçamento enxuto e precisa que cada real traga cliente.", "publicado": false },
-    { "nome": "SEO para Empresas B2B", "url": "/seo-para-empresas-b2b/", "frase": "Para quem vende para outras empresas, com ciclo de venda longo e ticket alto.", "publicado": false }
+    {
+      "nome": "SEO para Pequenas Empresas",
+      "url": "/seo-para-pequenas-empresas/",
+      "frase": "Para quem tem orçamento enxuto e precisa que cada real traga cliente.",
+      "publicado": true
+    },
+    {
+      "nome": "SEO para Empresas B2B",
+      "url": "/seo-para-empresas-b2b/",
+      "frase": "Para quem vende para outras empresas, com ciclo de venda longo e ticket alto.",
+      "publicado": true
+    }
   ],
   "grupos": [
     {
@@ -9,11 +19,36 @@
       "nome": "Saúde",
       "texto": "Pacientes pesquisam pelo procedimento, pelo sintoma e pelo bairro, e escolhem por confiança: avaliações, profissional identificado, informação clara. Todo conteúdo segue as regras do conselho de cada área.",
       "itens": [
-        { "nome": "Médicos e consultórios", "url": "/seo-para-medicos/", "frase": "Conteúdo educativo dentro das regras do CFM, por especialidade.", "publicado": true },
-        { "nome": "Clínicas", "url": "/seo-para-clinicas/", "frase": "Várias especialidades, uma estratégia que dá visibilidade a cada uma.", "publicado": false },
-        { "nome": "Clínicas de estética", "url": "/seo-para-clinicas-de-estetica/", "frase": "Procedimentos de alto ticket buscados por nome e por região.", "publicado": false },
-        { "nome": "Dentistas", "url": "/seo-para-dentistas/", "frase": "Implante, faceta e alinhador: os procedimentos que mais faturam.", "publicado": true },
-        { "nome": "Transplante capilar", "url": "/seo-para-clinicas-transplante-capilar/", "frase": "Decisão longa e pesquisada, que exige autoridade e prova.", "publicado": true }
+        {
+          "nome": "Médicos e consultórios",
+          "url": "/seo-para-medicos/",
+          "frase": "Conteúdo educativo dentro das regras do CFM, por especialidade.",
+          "publicado": true
+        },
+        {
+          "nome": "Clínicas",
+          "url": "/seo-para-clinicas/",
+          "frase": "Várias especialidades, uma estratégia que dá visibilidade a cada uma.",
+          "publicado": false
+        },
+        {
+          "nome": "Clínicas de estética",
+          "url": "/seo-para-clinicas-de-estetica/",
+          "frase": "Procedimentos de alto ticket buscados por nome e por região.",
+          "publicado": false
+        },
+        {
+          "nome": "Dentistas",
+          "url": "/seo-para-dentistas/",
+          "frase": "Implante, faceta e alinhador: os procedimentos que mais faturam.",
+          "publicado": true
+        },
+        {
+          "nome": "Transplante capilar",
+          "url": "/seo-para-clinicas-transplante-capilar/",
+          "frase": "Decisão longa e pesquisada, que exige autoridade e prova.",
+          "publicado": true
+        }
       ]
     },
     {
@@ -21,10 +56,30 @@
       "nome": "Escritórios",
       "texto": "O cliente chega com um problema e procura alguém que entenda dele. Ganha quem explica bem, mostra especialização e passa segurança, sempre dentro das regras de cada profissão.",
       "itens": [
-        { "nome": "Advogados", "url": "/seo-para-advogados/", "frase": "Visibilidade por área de atuação dentro do Provimento 205 da OAB.", "publicado": true },
-        { "nome": "Arquitetos", "url": "/seo-para-arquitetos/", "frase": "Portfólio que também aparece para quem está planejando a obra.", "publicado": false },
-        { "nome": "Imobiliárias", "url": "/seo-para-imobiliarias/", "frase": "Compradores e locatários buscando por bairro todos os dias.", "publicado": true },
-        { "nome": "Contabilidade", "url": "/seo-para-contabilidade/", "frase": "Empresas procurando contador por serviço e por cidade.", "publicado": false }
+        {
+          "nome": "Advogados",
+          "url": "/seo-para-advogados/",
+          "frase": "Visibilidade por área de atuação dentro do Provimento 205 da OAB.",
+          "publicado": true
+        },
+        {
+          "nome": "Arquitetos",
+          "url": "/seo-para-arquitetos/",
+          "frase": "Portfólio que também aparece para quem está planejando a obra.",
+          "publicado": false
+        },
+        {
+          "nome": "Imobiliárias",
+          "url": "/seo-para-imobiliarias/",
+          "frase": "Compradores e locatários buscando por bairro todos os dias.",
+          "publicado": true
+        },
+        {
+          "nome": "Contabilidade",
+          "url": "/seo-para-contabilidade/",
+          "frase": "Empresas procurando contador por serviço e por cidade.",
+          "publicado": false
+        }
       ]
     },
     {
@@ -32,13 +87,48 @@
       "nome": "Serviços locais",
       "texto": "Busca com urgência e perto de casa: quem aparece primeiro e transmite confiança recebe o contato. Vale para quem tem endereço e para quem atende na casa do cliente.",
       "itens": [
-        { "nome": "Restaurantes", "url": "/seo-para-restaurantes/", "frase": "Para aparecer quando alguém decide onde comer na região.", "publicado": false },
-        { "nome": "Hotéis", "url": "/seo-para-hoteis/", "frase": "Reserva direta, sem depender só das plataformas.", "publicado": false },
-        { "nome": "Assistência técnica", "url": "/seo-para-assistencia-tecnica/", "frase": "Conserto por marca, aparelho e bairro.", "publicado": false },
-        { "nome": "Franquias", "url": "/seo-para-franquias/", "frase": "Várias unidades, cada uma visível na sua região.", "publicado": false },
-        { "nome": "Desentupidoras", "url": "/seo-para-desentupidoras/", "frase": "Urgência, 24 horas e atendimento por região.", "publicado": false },
-        { "nome": "Vidraçarias", "url": "/seo-para-vidracarias/", "frase": "Box, espelho e fechamento buscados por bairro.", "publicado": false },
-        { "nome": "Energia solar", "url": "/seo-para-energia-solar/", "frase": "Pesquisa longa, comparação e confiança antes da compra.", "publicado": false }
+        {
+          "nome": "Restaurantes",
+          "url": "/seo-para-restaurantes/",
+          "frase": "Para aparecer quando alguém decide onde comer na região.",
+          "publicado": false
+        },
+        {
+          "nome": "Hotéis",
+          "url": "/seo-para-hoteis/",
+          "frase": "Reserva direta, sem depender só das plataformas.",
+          "publicado": false
+        },
+        {
+          "nome": "Assistência técnica",
+          "url": "/seo-para-assistencia-tecnica/",
+          "frase": "Conserto por marca, aparelho e bairro.",
+          "publicado": false
+        },
+        {
+          "nome": "Franquias",
+          "url": "/seo-para-franquias/",
+          "frase": "Várias unidades, cada uma visível na sua região.",
+          "publicado": false
+        },
+        {
+          "nome": "Desentupidoras",
+          "url": "/seo-para-desentupidoras/",
+          "frase": "Urgência, 24 horas e atendimento por região.",
+          "publicado": false
+        },
+        {
+          "nome": "Vidraçarias",
+          "url": "/seo-para-vidracarias/",
+          "frase": "Box, espelho e fechamento buscados por bairro.",
+          "publicado": false
+        },
+        {
+          "nome": "Energia solar",
+          "url": "/seo-para-energia-solar/",
+          "frase": "Pesquisa longa, comparação e confiança antes da compra.",
+          "publicado": false
+        }
       ]
     },
     {
@@ -46,10 +136,30 @@
       "nome": "Indústria e B2B",
       "texto": "Compradores pesquisam por produto, especificação técnica e fornecedor, e várias pessoas participam da decisão. O conteúdo precisa responder o comprador técnico e o financeiro.",
       "itens": [
-        { "nome": "Indústrias", "url": "/seo-para-industrias/", "frase": "Para ser encontrado por quem compra o que a fábrica produz.", "publicado": false },
-        { "nome": "Transportadoras", "url": "/seo-para-transportadoras/", "frase": "Fretes e rotas buscados por quem precisa contratar logística.", "publicado": false },
-        { "nome": "Demolidoras", "url": "/seo-para-demolidoras/", "frase": "Construtoras e incorporadoras buscando quem executa a obra.", "publicado": false },
-        { "nome": "Facilities", "url": "/seo-para-empresas-de-facilities/", "frase": "Limpeza, portaria e manutenção para empresas e condomínios.", "publicado": false }
+        {
+          "nome": "Indústrias",
+          "url": "/seo-para-industrias/",
+          "frase": "Para ser encontrado por quem compra o que a fábrica produz.",
+          "publicado": true
+        },
+        {
+          "nome": "Transportadoras",
+          "url": "/seo-para-transportadoras/",
+          "frase": "Fretes e rotas buscados por quem precisa contratar logística.",
+          "publicado": true
+        },
+        {
+          "nome": "Demolidoras",
+          "url": "/seo-para-demolidoras/",
+          "frase": "Construtoras e incorporadoras buscando quem executa a obra.",
+          "publicado": true
+        },
+        {
+          "nome": "Facilities",
+          "url": "/seo-para-empresas-de-facilities/",
+          "frase": "Limpeza, portaria e manutenção para empresas e condomínios.",
+          "publicado": true
+        }
       ]
     }
   ]

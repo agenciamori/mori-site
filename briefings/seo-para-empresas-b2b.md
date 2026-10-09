@@ -42,3 +42,10 @@ Linka para: /servicos/geo/, /cases/2live/, /cases/fheng/, os 4 segmentos B2B, /s
 1. Os clientes B2B costumam atender região (SP) ou o Brasil todo?
 2. Na 2Live e na FHENG: que tipo de lead chegou (pedido de orçamento, cotação, reunião)? Algum virou contrato que dá para citar?
 3. Vocês integram o rastreio de leads com CRM ou planilha do cliente?
+
+## Respostas do Gabriel (09/10/2026)
+
+- Clientes B2B atendem SP e o Brasil todo.
+- Leads chegam como pedido de orçamento e reunião.
+- A Mori integra o rastreio de leads com o CRM do cliente.
+- Não citar experiência com indústrias, transportadoras ou logística (a Mori ainda não atendeu esses setores).

@@ -30,3 +30,7 @@ rota, tipo de carga, modalidade (fracionada, dedicada, refrigerada), região.
 ## Pergunta para o Gabriel
 
 1. Já atendeu transportadora ou empresa de logística? Algum aprendizado específico?
+
+## Resposta do Gabriel (09/10/2026)
+
+- A Mori ainda não atendeu esse setor: não citar experiência, cases ou clientes do setor. A página se apoia em pesquisa, método e nos cases B2B (2Live e FHENG).

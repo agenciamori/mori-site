@@ -30,7 +30,7 @@ ctaFinal:
       <div class="seg-group" id="modelo-de-negocio">
         <h2>Por modelo de negócio</h2>
         <p>Antes do setor, o tamanho e o tipo de venda mudam a estratégia: quem vende para o consumidor final na sua região e quem vende para outras empresas precisam de abordagens diferentes.</p>
-        <div class="seg-cards">
+        <div class="seg-cards{% if modelosPub.length == 2 %} two{% endif %}">
           {%- for m in modelosPub %}
           <a class="seg-card" href="{{ m.url }}"><h3>{{ m.nome }}</h3><p>{{ m.frase }}</p><span class="go">Ver estratégia →</span></a>
           {%- endfor %}
@@ -43,7 +43,7 @@ ctaFinal:
       <div class="seg-group" id="{{ g.id }}">
         <h2>{{ g.nome }}</h2>
         <p>{{ g.texto }}</p>
-        <div class="seg-cards">
+        <div class="seg-cards{% if itens.length == 4 %} four{% elif itens.length == 2 %} two{% endif %}">
           {%- for i in itens %}
           <a class="seg-card" href="{{ i.url }}"><h3>SEO para {{ i.nome | lower if i.nome != "Transplante capilar" else "clínicas de transplante capilar" }}</h3><p>{{ i.frase }}</p><span class="go">Ver estratégia →</span></a>
           {%- endfor %}

@@ -23,33 +23,51 @@
   ],
   "segmentos": [
     {
+      "label": "SEO para Pequenas Empresas",
+      "url": "/seo-para-pequenas-empresas/"
+    },
+    {
+      "label": "SEO para Empresas B2B",
+      "url": "/seo-para-empresas-b2b/"
+    },
+    {
       "label": "SEO para Médicos",
-      "footer": "SEO para Médicos",
       "url": "/seo-para-medicos/"
     },
     {
       "label": "SEO para Advogados",
-      "footer": "SEO para Advogados",
       "url": "/seo-para-advogados/"
     },
     {
       "label": "SEO para Dentistas",
-      "footer": "SEO para Dentistas",
       "url": "/seo-para-dentistas/"
     },
     {
       "label": "SEO para Imobiliárias",
-      "footer": "SEO para Imobiliárias",
       "url": "/seo-para-imobiliarias/"
     },
     {
       "label": "Transplante Capilar",
-      "footer": "SEO Transplante Capilar",
       "url": "/seo-para-clinicas-transplante-capilar/"
     },
     {
+      "label": "SEO para Indústrias",
+      "url": "/seo-para-industrias/"
+    },
+    {
+      "label": "SEO para Transportadoras",
+      "url": "/seo-para-transportadoras/"
+    },
+    {
+      "label": "SEO para Demolidoras",
+      "url": "/seo-para-demolidoras/"
+    },
+    {
+      "label": "SEO para Facilities",
+      "url": "/seo-para-empresas-de-facilities/"
+    },
+    {
       "label": "Ver todos os segmentos",
-      "footer": "Ver todos os segmentos",
       "url": "/segmentos/"
     }
   ],
@@ -91,6 +109,40 @@
     {
       "label": "Blog",
       "url": "/blog/"
+    }
+  ],
+  "atendemos": [
+    {
+      "label": "SEO para Pequenas Empresas",
+      "url": "/seo-para-pequenas-empresas/"
+    },
+    {
+      "label": "SEO para Empresas B2B",
+      "url": "/seo-para-empresas-b2b/"
+    },
+    {
+      "label": "SEO para Médicos",
+      "url": "/seo-para-medicos/"
+    },
+    {
+      "label": "SEO para Advogados",
+      "url": "/seo-para-advogados/"
+    },
+    {
+      "label": "SEO para Dentistas",
+      "url": "/seo-para-dentistas/"
+    },
+    {
+      "label": "SEO para Imobiliárias",
+      "url": "/seo-para-imobiliarias/"
+    },
+    {
+      "label": "SEO Transplante Capilar",
+      "url": "/seo-para-clinicas-transplante-capilar/"
+    },
+    {
+      "label": "Ver todos os segmentos",
+      "url": "/segmentos/"
     }
   ]
 }

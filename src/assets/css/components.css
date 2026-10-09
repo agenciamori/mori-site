@@ -54,6 +54,8 @@
 .seg-group h2 { font-size:26px; margin-bottom:8px; }
 .seg-group > p { color:var(--n600); font-size:14.5px; line-height:1.65; max-width:70ch; }
 .seg-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:20px; }
+.seg-cards.four { grid-template-columns:repeat(4,1fr); }
+.seg-cards.two { grid-template-columns:repeat(2,1fr); max-width:760px; }
 .seg-card { display:block; border:1px solid #ECECEC; border-radius:var(--radius-md); padding:20px 22px; background:#fff; transition:border-color .15s, transform .15s; }
 .seg-card:hover { border-color:var(--primary); transform:translateY(-2px); }
 .seg-card h3 { font-size:15.5px; font-weight:800; margin-bottom:6px; }
@@ -85,7 +87,7 @@
 
 @media (max-width: 860px) {
   .page-h1 { font-size:30px; }
-  .ds-grid, .checklist-grid, .steps-3, .seg-cards { grid-template-columns:1fr; }
+  .ds-grid, .checklist-grid, .steps-3, .seg-cards, .seg-cards.four, .seg-cards.two { grid-template-columns:1fr; }
   .num-row { grid-template-columns:1fr 1fr; }
   .profile-hero { grid-template-columns:1fr; }
   .avatar { width:110px; height:110px; font-size:34px; }

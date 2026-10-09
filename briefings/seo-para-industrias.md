@@ -31,3 +31,7 @@ SERP de agências e guias (Nomus, O Rei do SEO, MZclick, RGB, Explorer, Carandá
 
 1. Já atendeu alguma indústria/fabricante? Qual setor (metalurgia, plásticos, químico...)?
 2. Há algum tipo de indústria que você quer atrair mais?
+
+## Resposta do Gabriel (09/10/2026)
+
+- A Mori ainda não atendeu esse setor: não citar experiência, cases ou clientes do setor. A página se apoia em pesquisa, método e nos cases B2B (2Live e FHENG).
