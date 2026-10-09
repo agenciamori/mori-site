@@ -19,8 +19,6 @@
 /servicos/avaliacoes      /servicos/gestao-de-avaliacoes/   301
 /servicos/criacao-sites   /servicos/criacao-de-sites/       301
 
-# Páginas antigas (temporário até as páginas novas existirem)
-/sobre-o-fundador     /sobre/              301
-/sobre-o-fundador/    /sobre/              301
-/duvidas              /#duvidas            301
-/duvidas/             /#duvidas            301
+# Páginas antigas
+/sobre-o-fundador     /sobre/fundador/     301
+/sobre-o-fundador/    /sobre/fundador/     301

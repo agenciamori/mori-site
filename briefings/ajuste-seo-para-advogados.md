@@ -22,3 +22,8 @@ WSI, Digitajus, Netlinks, Grupo KOP. Todas falam de OAB e de autoridade. A pági
 
 1. Já atendeu escritório de advocacia? Algum resultado ou situação para citar (sem nome, se preferir)?
 2. Quais áreas do Direito você quer atrair mais?
+
+## Resposta do Gabriel (09/10/2026)
+
+- Já atendeu escritórios de vários nichos. Não segmentar por área do Direito: a seção "SEO por área do Direito" vira
+  exemplos de como as buscas mudam por área, sem focar em uma.

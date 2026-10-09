@@ -35,3 +35,8 @@ e vídeos explicando a diferença entre SEO e GMN.
 
 1. A Mori resolve perfil suspenso e recuperação de ficha? Tem um caso para citar?
 2. O "+60% de agendamentos em 90 dias" é de qual cliente? Posso citar o nome?
+
+## Respostas do Gabriel (09/10/2026)
+
+- Resolvem perfil suspenso, sem caso para citar.
+- Os +60% de agendamentos são da PJ Odontologia.

@@ -1,0 +1,16 @@
+<section style="padding: 60px 0 0;">
+  <div class="wrap" style="max-width:820px;">
+    <div class="breadcrumb"><a href="/">Início</a>{% for b in breadcrumbs %}<span class="sep">›</span>{% if loop.last %}<span class="current">{{ b.name }}</span>{% else %}<a href="{{ b.url }}">{{ b.name }}</a>{% endif %}{% endfor %}</div>
+    {%- if badge %}
+    <div class="badge-pill">◆ {{ badge }}</div>
+    {%- endif %}
+    <h1 class="page-h1">{{ h1 | safe }}</h1>
+    <p class="page-lede">{{ lede | safe }}</p>
+    <div class="hero-light-cta">
+      <a href="{{ whatsappMsg | wa }}" class="pill-btn">{{ ctaPrimary or "Quero meu diagnóstico gratuito →" }}</a>
+      {%- if ctaSecondary %}
+      <a href="{{ ctaSecondary.url }}" class="pill-btn ghost" style="border-color:var(--n300);">{{ ctaSecondary.label }}</a>
+      {%- endif %}
+    </div>
+  </div>
+</section>

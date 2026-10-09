@@ -66,3 +66,19 @@ O schema Person ligado aos artigos do blog é o que dá autoria (E-E-A-T) a todo
 7. Links: seu LinkedIn pessoal, Instagram pessoal (se quiser) e outras redes
 8. Tem uma foto profissional para a página?
 9. Uma frase sua sobre como você enxerga SEO Local, do seu jeito
+
+## Respostas do Gabriel (09/10/2026)
+
+- Jornalista formado pela Universidade Cruzeiro do Sul (2020). Começou com SEO em 2019 na Petlove, como redator:
+  mais de 1.000 artigos publicados, responsável pela estratégia de conteúdo do site; o blog passava de 1 milhão de visitas
+  por mês e gerava milhares de reais em conversões no e-commerce.
+- Depois, como Estrategista de SEO, atuou em projetos de Ypê, Viva Real e Zap Imóveis. Foi Gerente de Conteúdo em uma
+  multinacional europeia.
+- Fundou a Mori em 2025: pequenas e médias empresas gastavam milhares em redes sociais e anúncios, mas não apareciam
+  organicamente quando as pessoas procuravam pelos serviços delas.
+- Mais de 20 empresas atendidas: clínicas odontológicas, estéticas e de saúde, escritórios de advocacia, B2B e serviços.
+- Sem certificações a citar. Oferece consultoria avulsa.
+- LinkedIn: https://www.linkedin.com/in/gabriel-arruda-477023164/ · Instagram: https://www.instagram.com/gaarruda_/
+- Frase: "O Google é o canal onde as pessoas procuram pelos seus serviços. A pergunta é: sua empresa aparece ou perde
+  cliente para os concorrentes todos os dias?"
+- Foto: pendente.

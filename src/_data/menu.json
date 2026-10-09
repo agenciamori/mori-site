@@ -1,29 +1,96 @@
 {
   "servicos": [
-    { "label": "SEO Local", "url": "/servicos/seo-local/" },
-    { "label": "GEO", "url": "/servicos/" },
-    { "label": "Google Meu Negócio", "url": "/servicos/google-meu-negocio/" },
-    { "label": "Criação de Sites", "url": "/servicos/criacao-de-sites/" },
-    { "label": "Gestão de Avaliações", "url": "/servicos/gestao-de-avaliacoes/" }
+    {
+      "label": "SEO Local",
+      "url": "/servicos/seo-local/"
+    },
+    {
+      "label": "GEO",
+      "url": "/servicos/geo/"
+    },
+    {
+      "label": "Google Meu Negócio",
+      "url": "/servicos/google-meu-negocio/"
+    },
+    {
+      "label": "Criação de Sites",
+      "url": "/servicos/criacao-de-sites/"
+    },
+    {
+      "label": "Gestão de Avaliações",
+      "url": "/servicos/gestao-de-avaliacoes/"
+    }
   ],
   "segmentos": [
-    { "label": "SEO para Médicos", "footer": "SEO para Médicos", "url": "/seo-para-medicos/" },
-    { "label": "SEO para Advogados", "footer": "SEO para Advogados", "url": "/seo-para-advogados/" },
-    { "label": "SEO para Dentistas", "footer": "SEO para Dentistas", "url": "/seo-para-dentistas/" },
-    { "label": "SEO para Imobiliárias", "footer": "SEO para Imobiliárias", "url": "/seo-para-imobiliarias/" },
-    { "label": "Transplante Capilar", "footer": "SEO Transplante Capilar", "url": "/seo-para-clinicas-transplante-capilar/" }
+    {
+      "label": "SEO para Médicos",
+      "footer": "SEO para Médicos",
+      "url": "/seo-para-medicos/"
+    },
+    {
+      "label": "SEO para Advogados",
+      "footer": "SEO para Advogados",
+      "url": "/seo-para-advogados/"
+    },
+    {
+      "label": "SEO para Dentistas",
+      "footer": "SEO para Dentistas",
+      "url": "/seo-para-dentistas/"
+    },
+    {
+      "label": "SEO para Imobiliárias",
+      "footer": "SEO para Imobiliárias",
+      "url": "/seo-para-imobiliarias/"
+    },
+    {
+      "label": "Transplante Capilar",
+      "footer": "SEO Transplante Capilar",
+      "url": "/seo-para-clinicas-transplante-capilar/"
+    },
+    {
+      "label": "Ver todos os segmentos",
+      "footer": "Ver todos os segmentos",
+      "url": "/segmentos/"
+    }
   ],
   "principal": [
-    { "label": "Sobre", "url": "/sobre/" },
-    { "label": "Blog", "url": "/blog/" },
-    { "label": "Cases", "url": "/cases/" },
-    { "label": "Contato", "url": "/contato/" }
+    {
+      "label": "Sobre",
+      "url": "/sobre/"
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "label": "Cases",
+      "url": "/cases/"
+    },
+    {
+      "label": "Contato",
+      "url": "/contato/"
+    }
   ],
   "institucional": [
-    { "label": "Sobre a Mori", "url": "/sobre/" },
-    { "label": "Sobre o Fundador", "url": "/sobre/" },
-    { "label": "Dúvidas", "url": "/#duvidas" },
-    { "label": "Cases", "url": "/cases/" },
-    { "label": "Blog", "url": "/blog/" }
+    {
+      "label": "Sobre a Mori",
+      "url": "/sobre/"
+    },
+    {
+      "label": "Sobre o Fundador",
+      "url": "/sobre/fundador/"
+    },
+    {
+      "label": "Dúvidas",
+      "url": "/duvidas/"
+    },
+    {
+      "label": "Cases",
+      "url": "/cases/"
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/"
+    }
   ]
 }

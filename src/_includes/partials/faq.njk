@@ -1,0 +1,11 @@
+<section id="faq" style="background: var(--n100);">
+  <div class="wrap">
+    <div class="eyebrow">perguntas frequentes</div>
+    <h2>{{ faqTitle or "Perguntas frequentes" }}</h2>
+    <div class="faq-list">
+      {%- for f in faq %}
+      <div class="faq-row"><div class="faq-q">{{ f.q }} <span class="chev">⌄</span></div><div class="faq-a">{{ f.a | safe }}</div></div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

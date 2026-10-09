@@ -29,4 +29,8 @@ document.querySelectorAll('.mm-toggle').forEach(function(t){
     t.closest('.mm-group').classList.toggle('open');
   });
 });
+document.addEventListener('click', function(e){
+  var a = e.target.closest && e.target.closest('a[href*="wa.me"]');
+  if (a && window.gtag) gtag('event', 'whatsapp_click', { page_path: location.pathname, link_text: (a.textContent || '').trim().slice(0, 80) });
+});
 </script>

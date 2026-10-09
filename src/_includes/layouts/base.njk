@@ -15,16 +15,29 @@
 <title>{{ title | safe }}</title>
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <meta name="description" content="{{ description | safe }}">
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="{{ title | safe }}">
+<meta property="og:description" content="{{ description | safe }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css">
+{%- if components %}
+<link rel="stylesheet" href="/assets/css/components.css">
+{%- endif %}
 {%- if pageCss %}
 <style>
 {{ pageCss | safe }}</style>
 {%- endif %}
+{%- if schemas %}
 {%- for s in schemas %}
 <script type="application/ld+json">{{ s | safe }}</script>
 {%- endfor %}
+{%- else %}
+{{ { url: page.url, breadcrumbs: breadcrumbs, service: service, faq: faq, extra: schemaExtra } | pageSchemas(site) | safe }}
+{%- endif %}
 </head>
 <body>
 {% include "partials/nav.njk" %}

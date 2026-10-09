@@ -1,0 +1,71 @@
+---
+layout: layouts/base.njk
+components: true
+permalink: /segmentos/
+updated: 2026-10-09
+title: "SEO por segmento: saúde, escritórios, serviços e B2B | Mori"
+description: "Cada tipo de negócio é buscado de um jeito. Veja como a Mori trabalha SEO e GEO para clínicas, escritórios, empresas de serviço, indústrias e empresas B2B."
+breadcrumbs:
+  - { name: "Segmentos", url: "/segmentos/" }
+whatsappMsg: "Olá, vim pela página de segmentos e quero saber como o SEO funciona para o meu negócio."
+ctaFinal:
+  title: "Não encontrou o seu segmento?"
+  text: "Atendemos empresas de vários setores. Conte sobre o seu negócio e mostramos como os seus clientes pesquisam e onde está a oportunidade."
+  button: "Falar sobre o meu negócio →"
+---
+<section style="padding: 60px 0 0;">
+  <div class="wrap" style="max-width:820px;">
+    <div class="breadcrumb"><a href="/">Início</a><span class="sep">›</span><span class="current">Segmentos</span></div>
+    <div class="badge-pill">◆ Segmentos</div>
+    <h1 class="page-h1">SEO para cada tipo de negócio</h1>
+    <p class="page-lede">Um paciente procurando implante, um diretor de compras procurando fornecedor e um morador procurando desentupidora às 23h pesquisam de jeitos completamente diferentes. A estratégia de SEO e GEO muda com o segmento: o que o cliente digita, o que ele precisa ler para confiar, as regras da profissão e o tempo até a decisão.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="seg-groups">
+      {%- set modelosPub = [] %}{% for m in segmentos.modelos %}{% if m.publicado %}{% set modelosPub = (modelosPub.push(m), modelosPub) %}{% endif %}{% endfor %}
+      {%- if modelosPub.length %}
+      <div class="seg-group" id="modelo-de-negocio">
+        <h2>Por modelo de negócio</h2>
+        <p>Antes do setor, o tamanho e o tipo de venda mudam a estratégia: quem vende para o consumidor final na sua região e quem vende para outras empresas precisam de abordagens diferentes.</p>
+        <div class="seg-cards">
+          {%- for m in modelosPub %}
+          <a class="seg-card" href="{{ m.url }}"><h3>{{ m.nome }}</h3><p>{{ m.frase }}</p><span class="go">Ver estratégia →</span></a>
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endif %}
+      {%- for g in segmentos.grupos %}
+      {%- set itens = [] %}{% for i in g.itens %}{% if i.publicado %}{% set itens = (itens.push(i), itens) %}{% endif %}{% endfor %}
+      {%- if itens.length %}
+      <div class="seg-group" id="{{ g.id }}">
+        <h2>{{ g.nome }}</h2>
+        <p>{{ g.texto }}</p>
+        <div class="seg-cards">
+          {%- for i in itens %}
+          <a class="seg-card" href="{{ i.url }}"><h3>SEO para {{ i.nome | lower if i.nome != "Transplante capilar" else "clínicas de transplante capilar" }}</h3><p>{{ i.frase }}</p><span class="go">Ver estratégia →</span></a>
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--n100);">
+  <div class="wrap">
+    <div class="eyebrow">o que muda de um segmento para outro</div>
+    <h2>Quatro perguntas que definem a estratégia</h2>
+    <div class="feature-grid">
+      <div class="feature-card"><div class="icon-box">🔎</div><h3>Como o seu cliente pesquisa?</h3><p>Pelo nome do serviço, pelo problema, pelo bairro, pela marca do aparelho ou pela especificação técnica. Cada forma de pesquisar pede um tipo de página.</p></div>
+      <div class="feature-card"><div class="icon-box">⏱️</div><h3>Quanto tempo ele leva para decidir?</h3><p>Uma urgência se resolve em minutos. Um implante, um projeto de energia solar ou um contrato B2B levam semanas de pesquisa e comparação.</p></div>
+      <div class="feature-card"><div class="icon-box">⚖️</div><h3>Quais regras a profissão impõe?</h3><p>Médicos, dentistas e advogados têm normas de publicidade dos seus conselhos. O conteúdo precisa ser útil e convincente sem sair dessas regras.</p></div>
+      <div class="feature-card"><div class="icon-box">🤝</div><h3>O que gera confiança no seu setor?</h3><p>Avaliações, casos, certificações, tempo de mercado, portfólio. Descobrimos o que o seu cliente precisa ver para escolher você, e colocamos isso em evidência.</p></div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/cta-final.njk" %}

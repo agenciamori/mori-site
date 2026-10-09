@@ -42,3 +42,8 @@ FAQPage com todas as perguntas, BreadcrumbList.
 2. Qual o contrato mínimo e por quê?
 3. O que o cliente precisa fornecer no início (acessos, fotos, informações)?
 4. Quais as 3 perguntas que você mais ouve em reunião de vendas?
+
+## Respostas do Gabriel (09/10/2026)
+
+- Não falar de faixa de investimento nem de contrato mínimo.
+- Perguntas mais ouvidas: "Por que minha empresa não aparece no Google?", "Precisa de site para ranquear?", "Precisa mesmo ter um blog?"

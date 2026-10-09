@@ -14,3 +14,7 @@
 ## Pergunta para o Gabriel
 
 1. A Mori otimiza site existente do cliente ou só trabalha com site criado por vocês?
+
+## Resposta do Gabriel (09/10/2026)
+
+- Sim, a Mori otimiza o site atual do cliente.

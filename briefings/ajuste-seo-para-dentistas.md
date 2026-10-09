@@ -24,3 +24,9 @@ de alto ticket** (implante, faceta, alinhador), que já é o ângulo da página 
 1. No PJ Odontologia, quais procedimentos mais trouxeram pacientes pelo Google?
 2. O que dentistas mais erram no Google, pela sua experiência?
 3. Qual objeção você mais ouve de dentista em reunião?
+
+## Respostas do Gabriel (09/10/2026)
+
+- Procedimentos que mais trouxeram pacientes na PJ: facetas e lentes de contato dental, Invisalign, implantes, próteses e reabilitação oral.
+- Erros mais comuns: perfil desatualizado, sem fotos, não responde nem pede avaliações com frequência, sem site ou com
+  site que só mostra portfólio e não é otimizado.

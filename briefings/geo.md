@@ -72,3 +72,16 @@ Service (serviceType "Generative Engine Optimization"), BreadcrumbList, FAQPage.
 2. No case PJ Odontologia: em quais perguntas a clínica apareceu nas IAs e em qual IA? Posso usar os prints?
 3. Vocês já medem tráfego vindo de IA no dashboard do cliente?
 4. Tem algum outro cliente com resultado em IA que dá para citar?
+
+## Respostas do Gabriel (09/10/2026)
+
+Abordagem da Mori: uma IA precisa fazer 3 coisas antes de recomendar uma marca: **encontrar** a informação, **entender**
+o que a empresa faz e em qual contexto ela é relevante, e **confiar** o suficiente para colocá-la como resposta diante de
+alternativas. O SEO tradicional é a fundação da primeira etapa (página rastreável, conteúdo útil, intenção atendida,
+estrutura técnica). O GEO aumenta a exigência das outras duas: marca coerente dentro do site, reconhecível fora dele e
+capaz de responder com profundidade a uma dúvida real. Ranking é uma parte da visibilidade; recomendação exige
+entendimento, contexto e confiança.
+
+PJ Odontologia aparece em respostas de IA para: dentista tatuapé, dentista vila maria, clínica odontológica em SP,
+Invisalign na zona leste, onde colocar facetas na zona leste, entre outras. Prints: Modo IA do Google ("dentista tatuape",
+PJ primeira opção), ChatGPT (avaliação de clínicas de Invisalign, PJ em 1º) e Visão geral por IA ("dentista na zona leste", PJ primeira).
