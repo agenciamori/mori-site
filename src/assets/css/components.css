@@ -31,6 +31,7 @@
 .checklist-grid .cl-item .ck { width:20px; height:20px; border-radius:50%; background:#EEF0FF; color:var(--primary); display:flex; align-items:center; justify-content:center; font-size:11px; flex-shrink:0; }
 
 .steps-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:32px; }
+.steps-3.four { grid-template-columns:repeat(4,1fr); }
 .step-card { border:1px solid #ECECEC; border-radius:var(--radius-md); padding:26px; background:#fff; }
 .step-card .k { font-size:12px; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:.4px; }
 .step-card h3 { font-size:18px; font-weight:800; margin:8px 0 8px; }
@@ -87,7 +88,7 @@
 
 @media (max-width: 860px) {
   .page-h1 { font-size:30px; }
-  .ds-grid, .checklist-grid, .steps-3, .seg-cards, .seg-cards.four, .seg-cards.two { grid-template-columns:1fr; }
+  .ds-grid, .checklist-grid, .steps-3, .steps-3.four, .seg-cards, .seg-cards.four, .seg-cards.two { grid-template-columns:1fr; }
   .num-row { grid-template-columns:1fr 1fr; }
   .profile-hero { grid-template-columns:1fr; }
   .avatar { width:110px; height:110px; font-size:34px; }
