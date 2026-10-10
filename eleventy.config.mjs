@@ -7,6 +7,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
 
   // Link de WhatsApp com mensagem pré-preenchida (identifica de qual página veio o lead)
+  eleventyConfig.addFilter("isoDate", (d) => {
+    if (!d) return "";
+    const dt = d instanceof Date ? d : new Date(d);
+    return isNaN(dt) ? String(d) : dt.toISOString().slice(0, 10);
+  });
   eleventyConfig.addFilter("wa", (msg) => {
     const base = "https://wa.me/5511960620253";
     return msg ? `${base}?text=${encodeURIComponent(msg)}` : base;
